@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Journal</string>
+    <string name="app_name">My Application</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Вход</string>
+    <string name="russian">Русский язык</string>
+    <string name="literature">Литература</string>
+    <string name="math">Математика</string>
+    <string name="physic">Физика</string>
+    <string name="english">Иностранный язык</string>
+    <string name="fizra">Физическая культура</string>
+    <string name="chemistry">Химия</string>
+    <string name="history">История</string>
+    <string name="informatika">Информатика</string>
+    <string name="biology">Биология</string>
+    <string name="society">Обществознание</string>
+    <string name="obj">ОБЖ</string>
+    <string name="astronomy">Астрономия</string>
+    <string name="geography">География</string>
+    <string name="chercenie">Черчение</string>
+    <string name="programmirovanit">Программирование</string>
+    <string name="nothing">Окно</string>
+    <string name="save">Сохранить</string>
+    <string name="homework">Домашнее задание</string>
 </resources>
