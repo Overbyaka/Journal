@@ -34,6 +34,7 @@ public class Lesson extends Activity {
         isExistHomework = false;
         data = getIntent().getStringExtra("data");
         name = getIntent().getStringExtra("name");
+        String access = getIntent().getStringExtra("access");
         final String dateAndName = data + ", " + name;
         TextView tv = (TextView) findViewById(R.id.tv);
         final EditText et = (EditText) findViewById(R.id.et);
@@ -43,7 +44,13 @@ public class Lesson extends Activity {
         tv.setText(dateAndName);
 
         sentenses = saveText.split("\n");
-
+        if(access.equals("student")){
+            et.setEnabled(false);
+            bt.setVisibility(View.GONE);
+        }else{
+            et.setEnabled(true);
+            bt.setVisibility(View.VISIBLE);
+        }
         for(int i = 1; i < sentenses.length-1;i+=2){
             if(sentenses[i].equals(dateAndName)){
                 temp = i;

@@ -19,6 +19,7 @@
         <activity android:name="com.example.journal.MainActivity2"/>
         <activity android:name="com.example.journal.OpenDay"/>
         <activity android:name="com.example.journal.Lesson"/>
+        <activity android:name="com.example.journal.Journal"/>
     </application>
 
 </manifest>

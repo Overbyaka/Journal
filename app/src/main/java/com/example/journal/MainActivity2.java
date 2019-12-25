@@ -3,6 +3,7 @@ package com.example.journal;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.CalendarView;
 import android.widget.Toast;
 
@@ -27,11 +28,18 @@ public class MainActivity2 extends Activity {
                 int mMonth = month;
                 int mDay = dayOfMonth;
                 Intent i = new Intent(MainActivity2.this,OpenDay.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("day","" + mDay);
                 i.putExtra("month","" + mMonth);
                 i.putExtra("year","" + mYear);
                 startActivity(i);
             }
         });
+    }
+
+    public void openJournal(View view){
+        Intent j = new Intent(MainActivity2.this,Journal.class);
+        j.putExtra("access",getIntent().getStringExtra("access"));
+        startActivity(j);
     }
 }

@@ -90,6 +90,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",lessons[0].getText());
                 startActivity(i);
@@ -99,6 +100,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",lessons[1].getText());
                 startActivity(i);
@@ -108,6 +110,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",lessons[2].getText());
                 startActivity(i);
@@ -117,6 +120,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",lessons[3].getText());
                 startActivity(i);
@@ -126,6 +130,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",lessons[4].getText());
                 startActivity(i);
@@ -135,6 +140,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",lessons[5].getText());
                 startActivity(i);
@@ -144,6 +150,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",lessons[6].getText());
                 startActivity(i);
@@ -153,6 +160,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",lessons[7].getText());
                 startActivity(i);
@@ -162,6 +170,7 @@ public class OpenDay extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(OpenDay.this,Lesson.class);
+                i.putExtra("access",getIntent().getStringExtra("access"));
                 i.putExtra("data",data);
                 i.putExtra("name",more.getText());
                 startActivity(i);
