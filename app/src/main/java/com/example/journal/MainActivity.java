@@ -67,28 +67,28 @@ public class MainActivity extends AppCompatActivity {
         TextView result = (TextView) findViewById(R.id.result);
         if(LOGINSTUDENT.equals(login) && PASSWORDSTUDENT.equals(password)){
         //if(login(login,password)){
-            result.setTextColor(Color.GREEN);
+            //result.setTextColor(Color.GREEN);
             result.setText("Верно");
             Intent i = new Intent(MainActivity.this,MainActivity2.class);
             i.putExtra("access","student");
             startActivity(i);
         } else if(LOGINTEACHER.equals(login) && PASSWORDTEACHER.equals(password)){
             //if(login(login,password)){
-            result.setTextColor(Color.GREEN);
+            //result.setTextColor(Color.GREEN);
             result.setText("Верно");
             Intent i = new Intent(MainActivity.this,MainActivity2.class);
             i.putExtra("access","teacher");
             startActivity(i);
         } else if(LOGINDIRECTOR.equals(login) && PASSWORDDIRECTOR.equals(password)){
             //if(login(login,password)){
-            result.setTextColor(Color.GREEN);
+            //result.setTextColor(Color.GREEN);
             result.setText("Верно");
             Intent i = new Intent(MainActivity.this,MainActivity2.class);
             i.putExtra("access","director");
             startActivity(i);
         }
         else {
-            result.setTextColor(Color.RED);
+            //result.setTextColor(Color.RED);
             result.setText("Вы ошиблись в логине или пароле");
         }
 
