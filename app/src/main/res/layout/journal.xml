@@ -19,12 +19,30 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/student"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Студент 1"
-                android:layout_span="7"
                 android:textSize="30dp" />
+            <Button
+                android:id="@+id/prev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prev"/>
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="SAVE"/>
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Next"/>
         </TableRow>
 
     </TableLayout>
